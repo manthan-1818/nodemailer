@@ -1,0 +1,50 @@
+.email-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .email-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    padding: 10px;
+  }
+  
+  .input-field,
+  .textarea-field {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .textarea-field {
+    min-height: 150px;
+  }
+  
+  .send-btn {
+    display: block;
+    width: 100%;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .send-btn:hover {
+    background-color: #45a049;
+  }
+  
